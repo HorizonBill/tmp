@@ -1,0 +1,7 @@
+启动管理工具
+	Rabbit MQ Command Prompt
+进入安装路径中的sbin，eg：D:\Program Files\RabbitMQ Server\rabbitmq_server-3.8.1\sbin
+输入 d:  , 然后 输入路径 D:\Program Files\RabbitMQ Server\rabbitmq_server-3.8.1\sbin
+输入命令：rabbitmq-plugins enable rabbitmq_management
+ 启动： net start RabbitMQ ; 
+	停止： net stop RabbitMQ ;
