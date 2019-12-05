@@ -1,4 +1,4 @@
 # tmp
 parameterFile
 
-该文件编程测试使用，用于springcloud中 config-server读取配置信息
+放置软件启动指令或者参数设置文件
