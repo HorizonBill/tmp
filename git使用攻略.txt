@@ -1,0 +1,19 @@
+1、git下载安装配置
+	下载安装，略，参考网上
+	https://blog.csdn.net/qq_32846595/article/details/71149312
+	安装完之后，右键出现 Git Gui Here,Git Bash Here两表示安装成功，之后 打开命令行或者Git Bash
+	git config --global user.name "Your Name"，之后回车，再输入
+	git config --global user.email email@example.com
+	其中Your Name和email@example.com替换成上面注册github时的账户名和邮箱。填入时均为字符串
+	命令行下输入和Git Bash下输入均可。
+
+2、使用git上传代码到GitHub中
+	复制GitHub新建的项目路径，如 https://github.com/HorizonBill/springboot-springcloud.git
+	a、接下来就到本地操作了，首先右键你的项目，选择Git Bash Here，进入如下界面，springboot-springcloud即为我的项目名
+	b、把github上面的仓库克隆到本地 ，如 git clone https://github.com/HorizonBill/springboot-springcloud.git
+	c、这个步骤以后你的本地项目文件夹下面就会多出个文件夹，该文件夹名即为你github上面的项目名，如图我多出了个springboot-springcloud文件夹，我们把本地项目文件夹下的所有文件（除了新多出的那个文件夹不用），其余都复制到那个新多出的文件夹下
+	d、继续输入命令 cd springboot-springcloud,进入springboot-springcloud文件夹
+	e、git add .        （注：别忘记后面的.，此操作是把Test文件夹下面的文件都添加进来）
+	f、git commit  -m  "提交信息"  （注：“提交信息”为github上传文件的注释）
+	g、git push -u origin master   （注：此操作目的是把本地仓库push到github上面，此步骤需要你输入帐号和密码）
+	
