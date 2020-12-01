@@ -12,4 +12,8 @@ public abstract class Colleague {
     public Colleague(Mediator mediator) {
         this.mediator = mediator;
     }
+
+    abstract void send(String message);
+
+    abstract void notifyMess(String message);
 }
