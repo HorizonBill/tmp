@@ -1,15 +1,21 @@
 package com.mf.test1;
 
 import java.util.*;
+import java.util.concurrent.CopyOnWriteArrayList;
 
 public class Main {
     public Main(){}
 
     public static void main(String[] args) {
 
-        String[] arr = {"cat", "caaat", "car"};
-       String s = "caat";
-        System.out.println(learnWord(arr, s));
+        List<String> list = new CopyOnWriteArrayList<>();
+        list.add("a");
+        list.add("a1");
+        list.add("a2");
+        list.add(0, "b1");
+        for (String s : list) {
+            System.out.println(s);
+        }
 
     }
 

@@ -3,7 +3,7 @@ package com.design.mediator;
 /**
  * @author Administrator
  * @ClassName Main
- * @description
+ * @ 中介模式
  * @time 2020/11/30 0030 22:19
  */
 public class Main {
