@@ -18,7 +18,7 @@ public class Main {
         Iterator iterator = new ConcreteIterator(concreteAggregate);
         Object item = iterator.first();
         while(!iterator.isDone()) {
-            System.out.println(iterator.currentItem() + "buy ticket...");
+            System.out.println(iterator.currentItem() + " buy ticket...");
             iterator.next();
         }
 

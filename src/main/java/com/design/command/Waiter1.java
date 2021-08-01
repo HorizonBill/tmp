@@ -32,6 +32,6 @@ public class Waiter1 {
 
     public void notifyBakeer(){
         for (Command command : orders)
-        command.excuteCommand();
+            command.excuteCommand();
     }
 }

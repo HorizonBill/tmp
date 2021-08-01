@@ -18,16 +18,17 @@ public class Main {
         comp.add(new Leaf("Leaf XB"));
         root.add(comp);
 
+        Leaf leaf = new Leaf("Leaf D");
+        root.add(leaf);
+
         //一个节点下的枝节
         Composite comp2 = new Composite("Composite XY");
-        comp.add(new Leaf("Leaf XYA"));
-        comp.add(new Leaf("Leaf XYB"));
+        comp2.add(new Leaf("Leaf XYA"));
+        comp2.add(new Leaf("Leaf XYB"));
         root.add(comp2);
 
         root.add(new Leaf("Leaf C"));
 
-        Leaf leaf = new Leaf("Leaf D");
-        root.add(leaf);
         root.remove(leaf);
 
         root.display(1);
